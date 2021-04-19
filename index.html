@@ -18,29 +18,8 @@
       <video class="movie">
         <source src="./assets/ejercicio.mp4" />
       </video>
-
       <button>Play/Pause</button>
     </main>
-    <script>
-      const video = document.querySelector("video");
-      const button = document.querySelector("button");
-      function MediaPlayer(config) {
-        this.media = config.el;
-      }
-      MediaPlayer.prototype.pause = function () {
-        this.media.pause();
-      };
-      MediaPlayer.prototype.play = function () {
-        this.media.play();
-      };
-      const player = new MediaPlayer({ el: video });
-      button.onclick = () => {
-        if (player.media.paused) {
-          player.play();
-        } else {
-          player.pause();
-        }
-      };
-    </script>
+    <script src="./assets/index.js"></script>
   </body>
 </html>
