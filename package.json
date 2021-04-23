@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "license": "MIT",
-  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
+  "author": "Diego Márquez <diegomarquez2008@outlook.com>",
   "keywords": [
     "platzi"
   ],
@@ -16,5 +16,14 @@
   },
   "browserslist": [
     "last 1 Chrome version"
-  ]
+  ],
+  "main": "sw.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddyEC/media-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oddyEC/media-player/issues"
+  },
+  "homepage": "https://github.com/oddyEC/media-player#readme"
 }
